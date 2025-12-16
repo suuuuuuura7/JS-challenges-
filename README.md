@@ -4,7 +4,7 @@ An interactive flip card game built with pure **HTML**, **CSS**, and **JavaScrip
 
 ## 🎬 Demo
 
-![Flip Cards Demo](./flipcard.gif)
+![Flip Cards Demo](./flip card.gif)
 
 ## ✨ Features
 
