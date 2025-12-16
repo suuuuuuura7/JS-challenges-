@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interactive Card</title>
+  <link rel="stylesheet" href="flip.css">
+  
+  
+</head>
+<body>
+  <div class="card" id="card">
+    <div class="card-inner">
+      <div class="card-face card-front">
+        <div class="card-title">Interactive JS Card</div>
+        <div class="card-text">
+          Click this card to reveal more details on the back.
+        </div>
+        <div class="card-tag">Front</div>
+      </div>
+      <div class="card-face card-back">
+        <div class="card-title">Details</div>
+        <div class="card-text">
+          You can put any content here: stats, buttons, or links.
+        </div>
+        <div class="card-tag">Back</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const card = document.getElementById("card");
+
+    card.addEventListener("click", () => {
+      card.classList.toggle("is-flipped");
+    });
+  </script>
+  <script src="js-challenge.js"></script>
+</body>
+</html>
